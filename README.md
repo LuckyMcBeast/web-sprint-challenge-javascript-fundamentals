@@ -27,13 +27,21 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
+`.forEach` iterates through and array and does something based up contents of a given index. `.map` iterates through an array and returns something to a new array based upon the contents of an index.
+
 2. Explain the difference between a callback and a higher order function.
 
+A callback function is a function that is called by another function, where as a higher order function is a function that is defined and accessed independently.
+
 3. What is closure?
+
+Closure is accessing a variable or function on a higher level than the current scope.
 
 4. Describe the four rules of the 'this' keyword.
 
 5. Why do we need super() in an extended class?
+
+We use super to connect the attributes of an extended class to the corrosponding attributes of the class that is being extended. Without super() the connection between the two classes attributes is not made.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
@@ -72,7 +80,7 @@ Create constructors, bind methods, and create cuboids in this prototypes challen
 #### Task D: Classes
 
 Once you have completed the prototypes challenge, it's time to convert all your hard work into classes.
-* [ ] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
+* [x] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
 
 In your solutions, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
